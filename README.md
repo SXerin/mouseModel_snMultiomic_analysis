@@ -3,7 +3,7 @@
 Code for analyzing single-nucleus multiomic data from mouse models.
 
 **Gene expression (GEX) analysis:**
-Gene expression matrix were generated using CellRanger (arc version 2.0.2, cellranger version 7.2.0, aligned to GRCm38 genome) and ambient RNAs were removed using CellBender.
+<be> The gene expression matrix was generated using CellRanger (ARC version 2.0.2, CellRanger version 7.2.0, aligned to the GRCm38 genome), and ambient RNAs were removed using CellBender.
 1. Doublets removal: GEX_doublet_removal.ipynb
 2. QC, normalize, cluster, and cell type annotation: GEX_allSample_QC_and_celltypeAnnotaiton.ipynb
 3. Differentially gene expression (DEGs) analysis: GEX_cDC1_DEG_analysis.ipynb
